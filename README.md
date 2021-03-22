@@ -64,6 +64,14 @@ pinniped get kubeconfig \
 ```
 
 Create a role and binding
+
+Imperatively
+```
+kubectl create clusterrolebinding my-user-admin --clusterrole admin --user bmullan
+```
+
+Declaratively
+
 ```
 kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
