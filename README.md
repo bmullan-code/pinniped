@@ -32,7 +32,7 @@ kubectl get secret local-user-authenticator-tls-serving-certificate --namespace 
 kubectl apply -f https://get.pinniped.dev/latest/install-pinniped-concierge.yaml
 ```
 
-Create a webhook authenticator
+Create a webhook authenticator, using the local authenticator and CA from step above.
 ```
 cat <<EOF | kubectl create -f -
 apiVersion: authentication.concierge.pinniped.dev/v1alpha1
