@@ -3,7 +3,7 @@ pinniped
 
 https://pinniped.dev/docs/tutorials/concierge-only-demo/
 
-# create a local authenticator
+# Create a local authenticator
 
 Install
 ```
