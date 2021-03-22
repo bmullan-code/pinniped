@@ -1,0 +1,1 @@
+{"kind":"TokenReview","apiVersion":"authentication.k8s.io/v1beta1","metadata":{"creationTimestamp":null},"spec":{},"status":{"authenticated":true,"user":{"username":"bmullan","uid":"4c03aca5-f621-41a0-9618-fbbe8098596f","groups":["group1","group2"]}}}
